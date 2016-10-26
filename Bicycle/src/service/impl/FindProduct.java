@@ -12,6 +12,7 @@ public class FindProduct implements FindProductService{
 
     @Override
     public List<Product> getProductsByCategory(int category_id) throws ServiceException {
+	    // а сервисы что, разучились входные параметры проверять?
 	DAOFactory factory = DAOFactory.getInstance();
 	NBDao dao = factory.getNBDao();
         List list;
