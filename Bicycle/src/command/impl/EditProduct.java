@@ -44,7 +44,7 @@ public class EditProduct implements Command{
    	    editService.editProduct(id, newName, newDescription, newPrice, newCategory_id);
 	    response.setErrorStatus(false);
 	    response.setSimpleMessage("Product was edited");
-	    System.out.println("1");
+	    System.out.println("1");// ну хоть бы выкосил этот код)))
 	} 
         catch (ServiceException e) {
             LOGGER.error("Exception in EditProduct class");

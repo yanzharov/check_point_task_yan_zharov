@@ -1,6 +1,8 @@
 package bean.entity;
 
-public class Product {
+public class Product {// equals? hashCode? toString? - это же сущность, которую ты в коллекции засовываешь
+    // а сущность твой - не полный Bean
+    // перечисли правила зоднания bean классов в java
     private int id;
     private String name;
     private String description;

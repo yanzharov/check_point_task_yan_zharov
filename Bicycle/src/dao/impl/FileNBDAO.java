@@ -1,4 +1,4 @@
-package dao.impl;
+package dao.impl;// где ты был, когда объяснялось правильное именование пакетов? МИНИМУМ 4-ре уровня - доменное имя компании наоборот...
 
 import bean.entity.Product;
 import dao.NBDao;
@@ -11,8 +11,14 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileNBDAO implements NBDao {
-    String QUERY;
+// Фиговый код
+public class FileNBDAO implements NBDao {// о, и тут с именованием беда
+    String QUERY;// 1. - атрибуты доступа кто-то съел?
+    // 2. Какого <вставьь сам>, у тебя в это классе появились поля экземпляра
+    //мы же многопоточность проходили
+    //объект этого класса - разделяемый ресурс
+    //у тебя клиенты что, ОДИН коннектионом всегда пользоваться будут ОДНОВРЕМЕННО
+    //
     Connection con=null;
 
     public FileNBDAO(){
@@ -21,16 +27,21 @@ public class FileNBDAO implements NBDao {
             con=DriverManager.getConnection("jdbc:mysql://localhost/bicycle","root","root");
         }
         catch(ClassNotFoundException e){
-            
+            // ля-ля-ля, а драйвер не загрузился, а мне все-равно
+            // я затихорюсь и никому ничего не скажу
+            // а вось пролетит
         }
         catch(SQLException e){
-            
+            // аналогично и про взятие соединения с базой данных
         }
     }
     
     @Override
     public void addProduct(int id, String name, String description, float price, int category_id) throws DAOException {
         try{
+            // включаем мозг и думаем и многопоточности
+            // ну вот даже технически, ты в методе не закрываешь соединение
+            // уже одно это должно было тебя насторожить
             QUERY="INSERT INTO `products`(`id`,`name`,`description`,`price`,`category_id`) VALUES(?,?,?,?,?)";
             PreparedStatement st=con.prepareStatement(QUERY);
             st.setInt(1, id);
@@ -146,6 +157,10 @@ public class FileNBDAO implements NBDao {
         }
     }
    
+    // похороните меня за плинтусом
+    // finalize
+    // да еще и позволяешь ему исключение выкинуть
+    
     @Override
     public void finalize() throws DAOException{
         try{

@@ -6,7 +6,8 @@ import bean.entity.Product;
 import dao.exception.DAOException;
 import java.util.List;
 
-public interface NBDao {
+public interface NBDao {// Н-да, именовать тебе еще, и именовать
+	// хоть бы название интерфейса из примера изменил
 
 	void addProduct(int id,String name, String description,float price,int category_id) throws DAOException;
 	List<Product> getProductsByCategory(int category_id) throws DAOException;
