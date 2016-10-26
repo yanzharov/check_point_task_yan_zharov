@@ -14,7 +14,7 @@ import command.impl.EditProduct;
 public class CommandProvider {
     private Map<String, Command> commands = new HashMap<String, Command>();
 	
-    CommandProvider() {
+    CommandProvider() {// класс public, конструктор (единственный) friendly - над кем так издеваемся?
 	commands.put("ADD_NEW_PRODUCT", new AddNewProduct());
 	commands.put("DELETE_PRODUCT", new DeleteProduct());
 	commands.put("EDIT_PRODUCT", new EditProduct());
