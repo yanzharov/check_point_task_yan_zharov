@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/bean/GetMaxRequest.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/bean/Response.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/dao/NBDao.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/bean/entity/Product.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/service/impl/EditProduct.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/bean/AddProductRequest.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/dao/exception/DAOException.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/dao/DAOFactory.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/command/impl/FindProducts.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/controller/Controller.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/command/Command.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/command/impl/GetMax.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/service/impl/FindProduct.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/command/impl/AddNewProduct.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/bean/DeleteProductRequest.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/service/EditProductService.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/command/impl/EditProduct.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/command/impl/GetMin.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/service/factory/ServiceFactory.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/bean/FindProductsRequest.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/dao/impl/FileNBDAO.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/controller/CommandProvider.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/bean/GetMinRequest.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/service/GetProductInformationService.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/log4j.xml</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/command/impl/GetCount.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/service/impl/GetProductInformation.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/bean/GetCountRequest.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/command/impl/DeleteProduct.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/service/FindProductService.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/bean/EditProductRequest.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/bean/Request.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/Bicycle/src/view/Main.java</file>
+        </group>
+    </open-files>
+</project-private>
