@@ -1,4 +1,4 @@
-package dao.impl;
+package dao.impl;// где ты был, когда объяснялось правильное именование пакетов? МИНИМУМ 4-ре уровня - доменное имя компании наоборот...
 
 import bean.entity.Product;
 import dao.NBDao;
