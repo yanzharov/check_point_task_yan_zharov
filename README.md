@@ -1,0 +1,1 @@
+# check_point_task_yan_zharov
