@@ -10,12 +10,12 @@ package bean;
  * @author Admin
  */
 public class FindProductsRequest extends Request {
-    private int category_id;
+    private int category_id;//н-да, Java Code COnvention нам побоку
 
     public FindProductsRequest() {
     }
 
-    public int getCategory_id() {
+    public int getCategory_id() {//еще раз такое имя метода увижу - ...!!!
         return category_id;
     }
 
